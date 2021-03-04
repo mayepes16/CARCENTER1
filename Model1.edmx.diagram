@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="beb60dbb75e449d8b59a2a4e9a2a0aca" Name="Diagram1">
+        <EntityTypeShape EntityType="CARCENTERModel.Cliente" Width="1.5" PointX="1.625" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CARCENTERModel.Factura" Width="1.5" PointX="5.875" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CARCENTERModel.Mecanico" Width="1.5" PointX="9.125" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CARCENTERModel.Repuesto" Width="1.5" PointX="3.375" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CARCENTERModel.Servicio" Width="1.5" PointX="8.375" PointY="6.625" IsExpanded="true" />
+        <AssociationConnector Association="CARCENTERModel.FK_Factura_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="CARCENTERModel.FK_Factura_Mecanico" ManuallyRouted="false" />
+        <AssociationConnector Association="CARCENTERModel.FK_Factura_Repuesto" ManuallyRouted="false" />
+        <AssociationConnector Association="CARCENTERModel.FK_Factura_Servicio" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
